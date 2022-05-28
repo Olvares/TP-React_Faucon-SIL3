@@ -1,0 +1,62 @@
+.lmj-cart {
+    color: white;
+    background-color: #31b572;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
+    position: relative;
+}
+
+.lmj-cart button {
+    right: 0;
+}
+
+.lmj-cart-add-button {
+    cursor: pointer;
+}
+
+.lmj-cart-toggle-button {
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    /* align-self: self-start; */
+    padding: 0;
+    margin: 0;
+    color: white;
+    align-self: flex-end;
+
+    position: absolute;
+    top: 0;
+}
+
+/* .lmj-cart-toggle-button:hover {
+    background-color: #fff;
+} */
+
+.lmj-cart-closed {
+    width: 30px;
+    position: relative;
+}
+
+.lmj-cart-closed > button {
+    color: white;
+    left: 0;
+}
+
+.cart-list {
+    padding: 10px;
+}
+
+.lmj-cart-button-icon-size {
+    width: 30px;
+    color: #31b572;
+}
+
+.lmj-cart,
+.lmj-cart-closed {
+    margin-right: 10px;
+}
